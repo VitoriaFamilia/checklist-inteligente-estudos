@@ -1,0 +1,68 @@
+{
+  "estudos": [
+    {
+      "titulo": "Prova de Java",
+      "dataVencimento": "2026-03-30",
+      "categoria": "Faetec",
+      "prioridade": "Média",
+      "status": "Pendente",
+      "anotacoes": "revisar conceitos de poo",
+      "id": "PfpleFdkURY"
+    },
+    {
+      "titulo": "Entrega de Projeto - M4",
+      "dataVencimento": "2026-04-01",
+      "categoria": "PDA",
+      "prioridade": "Média",
+      "status": "Pendente",
+      "anotacoes": "",
+      "id": "96b0lFR1GE4"
+    },
+    {
+      "titulo": "Entrega de trabalho ",
+      "dataVencimento": "2026-03-31",
+      "categoria": "Faetec",
+      "prioridade": "Média",
+      "status": "Pendente",
+      "anotacoes": "Empreendedorismo",
+      "id": "QmOvm1AIv_Q"
+    },
+    {
+      "titulo": "Entrega de trabalho",
+      "dataVencimento": "2026-04-15",
+      "categoria": "Faetec",
+      "prioridade": "Média",
+      "status": "Pendente",
+      "anotacoes": "Estudar conceitos de front",
+      "id": "ITqK0cgyOGM"
+    },
+    {
+      "titulo": "Faculdade",
+      "dataVencimento": "2026-04-01",
+      "categoria": "UBEC",
+      "prioridade": "Média",
+      "status": "Pendente",
+      "anotacoes": "Encerramento das provas",
+      "id": "_JaElT85qKE"
+    },
+    {
+      "titulo": "Apresentaçao de Trabalho",
+      "dataVencimento": "2026-04-05",
+      "categoria": "Faetec",
+      "prioridade": "Média",
+      "status": "Pendente",
+      "anotacoes": "Progração para Web",
+      "id": "gssmyKKK02o"
+    },
+    {
+      "titulo": "Estágio",
+      "dataVencimento": "2026-04-03",
+      "categoria": "RIO VAGAS",
+      "prioridade": "Média",
+      "status": "Pendente",
+      "anotacoes": "https://riovagas.com.br/riovagas/estagio-em-informatica-rede-de-padarias-r-1-50000-home-office/",
+      "id": "_m-7pBxt3E0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
