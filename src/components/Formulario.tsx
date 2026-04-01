@@ -54,10 +54,10 @@ export function Formulario({ aoSalvar, dadosIniciais }: FormProps) {
 
     try {
       if (estudoDiario.id) {
-        await api.put(`/estudos/${estudoDiario.id}`, estudoDiario);
+        await api.put(`/tarefas/${estudoDiario.id}`, estudoDiario);
         alert("Alteração salva com sucesso!");
       } else {
-        await api.post('/estudos', estudoDiario);
+        await api.post('/tarefas', estudoDiario);
         alert("Tarefa agendada com sucesso!");
       }
       

@@ -16,7 +16,7 @@ export function Lista({ aoEditar }: ListaProps) {
   const carregarDados = async () => {
     try {
       setLoading(true); // Inicia o carregamento
-      const response = await api.get('/estudos');
+      const response = await api.get('/tarefas');
       setEstudos(response.data);
     } catch (error) {
       console.error("Erro ao carregar dados do servidor.");
@@ -39,7 +39,7 @@ export function Lista({ aoEditar }: ListaProps) {
   const handleExcluir = async (id: string) => {
     if (confirm("Deseja excluir este compromisso?")) {
       try {
-        await api.delete(`/estudos/${id}`);
+        await api.delete(`/tarefas/${id}`);
         setEstudos(prev => prev.filter(item => item.id !== id));
       } catch (error) {
         alert("Erro ao excluir o item.");
