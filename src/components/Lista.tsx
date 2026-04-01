@@ -50,7 +50,7 @@ export function Lista({ aoEditar }: ListaProps) {
   const handleToggleStatus = async (item: IEstudoDiario) => {
     const novoStatus = item.status === 'Concluido' ? 'Pendente' : 'Concluido';
     try {
-      await api.patch(`/estudos/${item.id}`, { status: novoStatus });
+      await api.patch(`/tarefas/${item.id}`, { status: novoStatus });
       carregarDados();
     } catch (error) {
       console.error("Erro ao atualizar status.");
